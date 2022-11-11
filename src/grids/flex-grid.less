@@ -45,11 +45,33 @@
   flex-flow: row wrap;
 
   @media @mobile {
-    margin-left: -4px;
-    margin-right: -4px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
-  @media @tablet-interval {
+  @media @tablet-interval { 
+    //flex-wrap: nowrap;   
+    margin-left: -8px;
+    margin-right: -8px;
+  }
+
+  @media @desktop-min {
+    margin-left: -16px;
+    margin-right: -16px;
+  }
+}
+
+.row__nowrap{
+  display: flex;
+  flex-flow:row wrap;
+
+  @media @mobile {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  @media @tablet-interval { 
+    flex-flow: row;   
     margin-left: -8px;
     margin-right: -8px;
   }

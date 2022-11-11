@@ -10,13 +10,23 @@
 }
 .type-list {
   list-style-type: "\2014\A0";
-  margin-left: 48px;
+  margin-left: 10%;
 }
 .centered_button {
   display: flex;
   justify-content: center;
   margin-top: 56px;
   margin-bottom: 80px;
+}
+.centered_button :hover {
+  background-color: var(--primary-hover);
+}
+.centered_button :active {
+  background-color: var(--primary-active);
+}
+.imglaptop {
+  background-color: white;
+  border-radius: 25px;
 }
 .number_block {
   display: flex;
@@ -26,7 +36,7 @@
   border-radius: var(--radius-s);
 }
 .icon {
-  margin-bottom: 44px;
+  margin-bottom: 20px;
 }
 .block {
   display: flex;
