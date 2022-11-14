@@ -19,10 +19,16 @@
   margin-bottom: 80px;
 }
 .centered_button :hover {
+  transition: background-color 0.5s 0s ease-in-out;
   background-color: var(--primary-hover);
 }
 .centered_button :active {
+  transition: background-color 0.5s 0s ease-in-out;
   background-color: var(--primary-active);
+}
+.centered_button :focus {
+  outline: auto;
+  outline-color: var(--primary-focus);
 }
 .imglaptop {
   background-color: white;
